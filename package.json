@@ -1,0 +1,28 @@
+{
+  "name": "test-functions",
+  "version": "0.1.0",
+  "description": "A set of functions to test on gcf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "zip -FSr test-functions.zip ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/therynamo/test-functions"
+  },
+  "keywords": [
+    "gcf",
+    "google",
+    "cloud"
+  ],
+  "author": "therynamo",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
+  }
+}
