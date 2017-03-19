@@ -1,7 +1,7 @@
 test-functions
 ===
 
-A set of functions for testing out [Google Cloud Functions]().
+A set of functions for testing out [Google Cloud Functions](https://cloud.google.com/functions/).
 
 Building
 ===
@@ -12,6 +12,18 @@ Deploying
 ===
 
 When creating a GCF, import the zip folder from your storage bucket (or upload). Then, in the `Function to execute` input field, place one of the methods exported in the main `index.js` file.
+
+### Credentials
+
+Store credentials in `.creds.js` in an object. It will get zipped up with the rest of the project and ignored in source control.
+
+```js
+module.exports = {
+  twilioPhoneNumber: "<Phone>",
+  twilioAccountSid: "<SID>",
+  twilioAuthToken: "<AuthToken>"
+}
+```
 
 Testing
 ===

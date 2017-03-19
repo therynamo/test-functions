@@ -1,3 +1,4 @@
 node_modules/
 test-functions.zip
 .vscode/
+.creds.js
