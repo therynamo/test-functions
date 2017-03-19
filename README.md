@@ -28,7 +28,7 @@ module.exports = {
 Testing
 ===
 
-You can use the [functions-emulator](https://github.com/GoogleCloudPlatform/cloud-functions-emulator) to run any of the functions locally prior to deploying your function. You can install this globally if you choose, though basic functionality is covered in the npm scripts.
+You can use the [functions-emulator](https://github.com/GoogleCloudPlatform/cloud-functions-emulator) to run any of the functions locally prior to deploying your function. Basic functionality of the emulator is included in the npm scripts so you don't have to install it globally.
 
 1) `npm start`, to start up the emulator
 2) `npm run deploy -- <functionName> --<flags>`, to deploy your function locally
